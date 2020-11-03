@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguas indigenas</title>
+</head>
+<body>
+    <p>VISUALIZADOR DE FAMILIAS LINGÜISTICAS INDÍGENAS MEXICANAS</p>
+    <label for="Familias lingüisticas">Escoge un mapa</label>
+    <select onchange="switchVis(this.value)">
+        <optgroup label="Por mayoría de hablantes">
+            <option value="529V7">Hablantes indígenas por estado</option>
+            <option value="7YR4e">Hablantes indígenas por municipio</option>
+        </optgroup>
+        <optgroup label="Por familia lingüistica">
+            <option value="tK3VW">Todas</option>
+            <option value="OG5Sy">Yuto-Nahua</option>
+            <option value="dguNP">Totonaco-Tepehua</option>
+            <option value="kJr7w">Tarasca</option>
+            <option value="7KmbH">Seri</option>
+            <option value="GLVZ5">Oto-Mangue</option>
+            <option value="G9BxT">Mixe-Zoque</option>
+            <option value="nMnmy">Maya</option>
+            <option value="4rwnL">Huave</option>
+            <option value="hpHSI">Cochími</option>
+            <option value="aiZEr">Chontal de Oaxaca</option>
+            <option value="IN0XI">Álgica</option>
+        </optgroup>
+
+        
+    </select>
+    
+    
+    <iframe title="FAMILIAS LINGÜISTICAS EN MEXICO" aria-label="Map" id="datawrapper-chart-529V7" src="https://datawrapper.dwcdn.net/529V7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="650"></iframe>
+    
+    <script src="js/switching.js"></script> 
+    <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+    </script>  
+</body>
+</html>
