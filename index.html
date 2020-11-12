@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lenguas indigenas</title>
+    <title>Lenguas Indígenas</title>
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-    <p>VISUALIZADOR DE FAMILIAS LINGÜISTICAS INDÍGENAS MEXICANAS</p>
+    <br>
+    <h1>VISUALIZADOR DE FAMILIAS LINGÜISTICAS INDÍGENAS MEXICANAS</h1>
+    <br>
     <label for="Familias  lingüisticas">Escoge un mapa</label>
     <select onchange="switchVis(this.value)">
         <optgroup label="Por mayoría de hablantes">
-            <option value="529V7">Hablantes indígenas por estado</option>
+            <option value="MbgBg">Hablantes indígenas por estado</option>
             <option value="7YR4e">Hablantes indígenas por municipio</option>
         </optgroup>
         <optgroup label="Por familia lingüistica">
@@ -30,12 +33,13 @@
 
         
     </select>
-    
-    
-    <iframe title="FAMILIAS LINGÜISTICAS EN MEXICO" aria-label="Map" id="datawrapper-chart-529V7" src="https://datawrapper.dwcdn.net/529V7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="650"></iframe>
-    
+
+    <iframe title="Visualizador de Mapas de Lenguas Indígenas" aria-label="Map" id="datawrapper-chart-MbgBg" src="https://datawrapper.dwcdn.net/MbgBg/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="407"></iframe>
+
     <script src="js/switching.js"></script> 
     <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-    </script>  
+    </script>
+
+
 </body>
 </html>
